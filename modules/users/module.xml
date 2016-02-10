@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<title>Users &amp; Roles</title>
+	<name>users</name>
+	<description>Users module allows you the public section, which provides you to login or logout the database, and private section, which provides you the management of users and users roles</description>
+	<version>1.0.2</version>
+	<author>iQDesk</author>	
+	<dependencies>
+		<dependedOnModule>log</dependedOnModule>
+		<dependedOnModule>modules</dependedOnModule>
+	</dependencies>		
+	<primaryNavigationItem>
+		<section>users</section>
+		<action>index</action>
+	</primaryNavigationItem>
+	<sections>
+		<section>
+			<title>Users section</title>
+			<name>users</name>
+			<description>Users section provides you the functionalities to create, update and delete users in the system</description>
+			<actions>
+				<action>
+					<title>Listing of users</title>
+					<name>index</name>
+				</action>
+				<action>
+					<title>Create user</title>
+					<name>create</name>
+				</action>
+				<action>
+					<title>Update user</title>
+					<name>update</name>
+				</action>
+				<action>
+					<title>Update own user</title>
+					<name>updateown</name>
+				</action>
+				<action>
+					<title>Delete user</title>
+					<name>delete</name>
+				</action>
+			</actions>
+		</section>	
+		<section>
+			<title>Roles section</title>
+			<name>roles</name>
+			<description>Roles section provides you the functionalities to create, update, delete roles and manage permissions of the roles in the system</description>
+			<actions>
+				<action>
+					<title>Listing of roles</title>
+					<name>index</name>
+				</action>					
+				<action>
+					<title>Create role</title>
+					<name>create</name>
+				</action>
+				<action>
+					<title>Update role</title>
+					<name>update</name>
+				</action>
+				<action>
+					<title>Delete role</title>
+					<name>delete</name>
+				</action>								
+			</actions>
+		</section>		
+	</sections>
+</module>

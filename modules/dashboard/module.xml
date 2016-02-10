@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<title>Dashboard</title>
+	<name>dashboard</name>
+	<description>Dashboard expands your system with new place for widgets container. Any other app can feed their data on the dashboard.</description>
+	<version>1.0.2</version>
+	<author>iQDesk</author>
+	<primaryNavigationItem>
+		<section>main</section>
+		<action>index</action>
+	</primaryNavigationItem>
+	<sections>
+		<section>
+			<title>Main section</title>
+			<name>main</name>
+			<description>Main section provides you the grid of defined widgets</description>
+			<actions>
+				<action>
+					<title>Listing</title>
+					<name>index</name>
+				</action>
+				<action>
+					<title>Re-arrange widgets</title>
+					<name>rearrange</name>
+				</action>
+				<action>
+					<title>Close/Open specific widgets</title>
+					<name>changestate</name>
+				</action>				
+			</actions>
+		</section>
+	</sections>
+</module>

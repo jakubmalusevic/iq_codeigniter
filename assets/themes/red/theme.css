@@ -1,0 +1,79 @@
+body{
+	color:#333;
+}
+.navigation li a{
+	color:#620f0b;
+}
+.navigation li a:hover,.navigation li a.active{
+	background:#cf0e0e;
+	box-shadow:0px 0px 40px rgba(0,0,0,0.3) inset;
+}
+.navigation-handler{
+	color:#620f0b;
+}
+.navigation-handler:hover,.navigation-handler.opened{
+	background:#cf0e0e;
+	box-shadow:0px 0px 40px rgba(0,0,0,0.3) inset;
+}
+.tabs-list li > a{
+	color:#686868;
+	background:#D7D7D7;
+}
+.tabs-list li > a:hover{
+	color:#000;
+}
+.tabs-list li.active > a{
+	background:#edd7d7;
+	color:#620f0b;
+}
+.content-header{
+	background:#edd7d7;
+}
+.table-action-button:hover{
+	background:#cf0e0e;
+}
+.moving-row-holder{
+	background:#cf0e0e !important;
+}
+.moving-row-holder > *{
+	border-color:#cf0e0e !important;
+}
+.work-table-link{
+	color:#cf0e0e;
+}
+.language-wrapper{
+	background:#cf0e0e;
+}
+.language-wrapper:hover,.language-wrapper.active{
+	background:#b50d0d;
+}
+.primary-button{
+	background:#cf0e0e;
+}
+.primary-button:hover{
+	background:#b50d0d;
+}
+.delete-button{
+	background:#222222;
+	color:#f86161;
+}
+.delete-button:hover{
+	background:#000000;
+}
+.warning-message{
+	background:#222222;
+	color:#f86161;
+}
+.info-message{
+	background:#cf0e0e;
+	color:#FFF;
+}
+*[sort-column][sort-direction='asc']{
+	background-image:url(images/sort-icon-asc.png) !important;
+}
+*[sort-column][sort-direction='desc']{
+	background-image:url(images/sort-icon-desc.png) !important;
+}
+.notification-close-button{
+	background:#cf0e0e;
+}

@@ -1,0 +1,235 @@
+html{
+	direction:rtl;
+}
+.navigation li{
+	float:right;
+}
+.navigation-border{
+	right:auto;
+	left:0px;
+}
+.navigation-icon-box .navigation-icon-display-on-hover{
+	left:auto;
+	right:0px;
+}
+.tabs-list{
+	float:right;
+}
+.tabs-list li{
+	float:right;
+	margin-right:0px;
+	margin-left:5px;
+}
+.button .typcn{
+	margin-right:0px;
+	margin-left:5px;
+}
+.work-table th{
+	border-right:none;
+	border-left:#DFDFDF 1px solid; 
+}
+.work-table td{
+	border-right:none;
+	border-left:#EDEDED 1px solid;
+}
+.work-table td:last-child{
+	border-left:none;
+}
+.work-table th:last-child{
+	border-left:none;
+}
+.sidebar-left{
+	float:right !important;
+}
+.sidebar-right{
+	float:left !important;
+}
+.bordered-left-sidebar{
+	margin:0px;
+	border-right:none;
+	border-left:#D7D7D7 1px solid;
+    margin-right:25%;
+}
+.bordered-left-sidebar-hidden{
+	margin-right:20px;
+}
+.bordered-right-sidebar{
+	margin:0px;
+	border-left:none;
+	border-right:#D7D7D7 1px solid;
+    margin-left:25%;
+}
+.bordered-right-sidebar-hidden{
+	margin-left:20px;
+}
+.vertical-hideable-handler:after{
+	content:"\e049";
+	right:auto;
+	left:7px;
+}
+.vertical-hideable-handler-hidden:after{
+	content:"\e047";
+}
+.sidebar-right .vertical-hideable-handler:after{
+	content:"\e047" !important;
+}
+.sidebar-right .vertical-hideable-handler-hidden:after{
+	content:"\e049" !important;
+}
+.horizontal-hideable-handler:after{
+	right:auto;
+	left:7px;
+}
+.datepicker-field{
+	padding-right:5px !important;
+	padding-left:20px !important;
+	background-position:4px 4px !important;
+}
+select{
+	padding-left:0px;
+	padding-right:5px;
+}
+.pagination-wrapepr{
+	text-align:left;
+}
+.pagination-action-wrapper{
+	direction:ltr;
+	margin:2px 10px 2px 0px;
+}
+.black-middle-loader{
+	padding-right:46px;
+	padding-left:10px;
+	background:#000 url(../images/black-middle-loader.gif) 93% center no-repeat;
+}
+.grey-middle-loader{
+	padding-right:46px;
+	padding-left:10px;
+	background:#4C4C4C url(../images/grey-middle-loader.gif) 93% center no-repeat;
+}
+.white-middle-loader{
+	padding-right:46px;
+	padding-left:10px;
+	background:#FFF url(../images/white-middle-loader.gif) 93% center no-repeat;
+}
+textarea{
+	padding:0px 5px 0px 0px;
+}
+.modal-wrapper {
+	text-align:right;
+}
+.right-offset-10{
+	padding-left:10px !important;
+	padding-right:0px !important;
+}
+.right-offset-20{
+	padding-left:20px !important;
+	padding-right:0px !important;
+}
+.right-offset-30{
+	padding-left:30px !important;
+	padding-right:0px !important;
+}
+.right-offset-40{
+	padding-left:40px !important;
+	padding-right:0px !important;
+}
+.right-offset-50{
+	padding-left:50px !important;
+	padding-right:0px !important;
+}
+.left-offset-10{
+	padding-right:10px !important;
+	padding-left:0px !important;
+}
+.left-offset-20{
+	padding-right:20px !important;
+	padding-left:0px !important;
+}
+.left-offset-30{
+	padding-right:30px !important;
+	padding-left:0px !important;
+}
+.left-offset-40{
+	padding-right:40px !important;
+	padding-left:0px !important;
+}
+.left-offset-50{
+	padding-right:50px !important;
+	padding-left:0px !important;
+}
+.right-offset-10.left-offset-10{
+	padding:0px 10px !important;
+}
+.right-offset-20.left-offset-20{
+	padding:0px 20px !important;
+}
+.right-offset-30.left-offset-30{
+	padding:0px 30px !important;
+}
+.right-offset-40.left-offset-40{
+	padding:0px 40px !important;
+}
+.right-offset-50.left-offset-50{
+	padding:0px 50px !important;
+}
+.modal-header{
+	padding:12px 10px 12px 45px;
+}
+.mfp-close-btn-in .mfp-close{
+	left:0px;
+	right:auto;
+}
+.permission-sections-block > .permission-actions-block,.permission-sections-block > .permission-box{
+	background:url(../images/dotted-tree-lines.png) 98% top repeat-y;
+}
+.permission-actions-block > .permission-box{
+	background:url(../images/dotted-tree-lines.png) 95% top repeat-y;
+}
+.permission-sections-block > .permission-box > .column-6:first-child{
+	padding-right:16px;
+	padding-left:0px;
+	background:url(../images/dotted-tree-h-lines.png) 96% 3px no-repeat;
+}
+.permission-actions-block > .permission-box > .column-6:first-child{
+	padding-right:50px;
+	padding-left:0px;
+	background:url(../images/dotted-tree-h-lines.png) 89% 3px no-repeat;
+}
+.last-permissions-actions-block{
+	background:url(../images/dotted-tree-lines.png) 95% top no-repeat;
+}
+.permission-sections-block > .last-permission-box{
+	background:url(../images/dotted-tree-lines.png) 98% -7px no-repeat !important;
+}
+.permission-actions-block > .last-permission-box{
+	background:url(../images/dotted-tree-lines.png) 95% -7px no-repeat !important;
+}
+.plus-minus-toggler{
+	margin-right:0px;
+	margin-left:5px;
+}
+.popup-icon{
+	margin-right:0px;
+	margin-left:10px;
+}
+.alert .typcn{
+	margin-right:0px;
+	margin-left:5px;
+}
+.language-navigator > li:hover:after{
+	left:auto;
+	right:5px;
+}
+.file-wrapper:after{
+	left:4px;
+	right:auto;
+	top:-3px;
+}
+.file-wrapper{
+	padding:2px 5px 2px 25px;
+}
+.notification-close-button{
+	top:-7px;
+	left:-7px;
+	right:auto;
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<title>Apps</title>
+	<name>modules</name>
+	<description>Apps module allow you to manage installed apps in your system</description>
+	<version>1.0.9</version>
+	<author>iQDesk</author>
+	<dependencies>
+		<dependedOnModule>log</dependedOnModule>
+	</dependencies>	
+	<primaryNavigationItem>
+		<section>listing</section>
+		<action>index</action>
+	</primaryNavigationItem>
+	<sections>
+		<section>
+			<title>Listing section</title>
+			<name>listing</name>
+			<description>Apps section provides you the list of installed apps in your system</description>
+			<actions>
+				<action>
+					<title>Listing</title>
+					<name>index</name>
+				</action>
+				<action>
+					<title>Refresh Apps</title>
+					<name>refresh</name>
+				</action>
+				<action>
+					<title>Install</title>
+					<name>install</name>
+				</action>
+				<action>
+					<title>Delete</title>
+					<name>delete</name>
+				</action>	
+				<action>
+					<title>Change order</title>
+					<name>saveorder</name>
+				</action>
+				<action>
+					<title>View module info</title>
+					<name>view</name>
+				</action>
+				<action>
+					<title>Change module state</title>
+					<name>changestate</name>
+				</action>
+			</actions>
+		</section>
+		<section>
+			<title>Shop section</title>
+			<name>shop</name>
+			<description>Shop section provides you the access to the world of amazing apps</description>
+			<actions>
+				<action>
+					<title>Listing</title>
+					<name>index</name>
+				</action>
+				<action>
+					<title>View app</title>
+					<name>view</name>
+				</action>
+				<action>
+					<title>Update app</title>
+					<name>update</name>
+				</action>
+				<action>
+					<title>Buy app</title>
+					<name>buy</name>
+				</action>
+				<action>
+					<title>Rollback app version</title>
+					<name>rollback</name>
+				</action>
+				<action>
+					<title>Leave review on app</title>
+					<name>createreview</name>
+				</action>
+				<action>
+					<title>View app images</title>
+					<name>viewimage</name>
+				</action>
+				<action>
+					<title>Update engine version</title>
+					<name>updateengine</name>
+				</action>
+				<action>
+					<title>Rollback engine version</title>
+					<name>rollbackengine</name>
+				</action>
+			</actions>
+		</section>
+	</sections>	
+</module>

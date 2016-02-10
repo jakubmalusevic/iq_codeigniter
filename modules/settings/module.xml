@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<title>Settings</title>
+	<name>settings</name>
+	<description>Settings module allows you to manage the global system settings and all the custom settings defined by installed modules</description>
+	<version>1.0.5</version>
+	<author>iQDesk</author>
+	<dependencies>
+		<dependedOnModule>log</dependedOnModule>
+	</dependencies>	
+	<primaryNavigationItem>
+		<section>settings</section>
+		<action>index</action>
+	</primaryNavigationItem>
+	<sections>
+		<section>
+			<title>Listing section</title>
+			<name>listing</name>
+			<description>Settings section provides you the list of the global system settings and all the custom settings defined by installed modules</description>
+			<actions>
+				<action>
+					<title>Listing</title>
+					<name>index</name>
+				</action>
+				<action>
+					<title>Update setting</title>
+					<name>update</name>
+				</action>				
+				<action>
+					<title>Reset global settings to default</title>
+					<name>reset</name>
+				</action>
+			</actions>
+		</section>
+	</sections>
+</module>

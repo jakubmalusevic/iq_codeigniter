@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<title>Share</title>
+	<name>share</name>
+	<description>Share</description>
+	<version>1.0.0</version>
+	<author>Jakub</author>
+	<dependencies>		
+	</dependencies>	
+	<primaryNavigationItem>
+		<section>share</section>
+		<action>index</action>
+	</primaryNavigationItem>
+	<sections>
+		<section>
+			<title>Listing section</title>
+			<name>listing</name>
+			<description>Share List</description>
+			<actions>
+				<action>
+					<title>Listing</title>
+					<name>index</name>
+				</action>
+				<action>
+					<title>Edit share</title>
+					<name>edit</name>
+				</action>				
+				<action>
+					<title>Delete share</title>
+					<name>delete</name>
+				</action>
+                <action>
+                    <title>Add share</title>
+                    <name>add</name>
+                </action>                
+			</actions>
+		</section>
+	</sections>
+</module>

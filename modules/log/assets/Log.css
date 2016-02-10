@@ -1,0 +1,6 @@
+.log-description-full{
+	display:none;
+}
+*[log-show-more='true']{
+	margin-top:10px;
+}

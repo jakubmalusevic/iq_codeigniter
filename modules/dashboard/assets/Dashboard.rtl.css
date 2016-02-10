@@ -1,0 +1,16 @@
+.single-widget-box,.moving-widget-box{
+	float:right;
+}
+.widget-header{
+	background:#595959;
+	color:#FFF;
+	padding:5px 10px 5px 50px;
+}
+.widget-close-button{
+	left:10px;
+	right:auto
+}
+.widget-collapse-button{
+	left:32px;
+	right:auto;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<title>Log</title>
+	<name>log</name>
+	<description>Log module allows you to manage the log of all actions in the system</description>
+	<version>1.0.1</version>
+	<author>iQDesk</author>
+	<primaryNavigationItem>
+		<section>listing</section>
+		<action>index</action>
+	</primaryNavigationItem>
+	<sections>
+		<section>
+			<title>Listing section</title>
+			<name>listing</name>
+			<description>Log section provides you the list of performed actions in the system</description>
+			<actions>
+				<action>
+					<title>Listing</title>
+					<name>index</name>
+				</action>
+				<action>
+					<title>Delete log record</title>
+					<name>delete</name>
+				</action>				
+				<action>
+					<title>Clear system log</title>
+					<name>clear</name>
+				</action>
+				<action>
+					<title>Batch delete log records</title>
+					<name>batchdelete</name>
+				</action>
+			</actions>
+		</section>
+	</sections>
+</module>

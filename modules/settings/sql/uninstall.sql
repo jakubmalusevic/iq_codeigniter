@@ -1,0 +1,1 @@
+DROP TABLE `[table_prefix]settings_records`,`[table_prefix]settings_sections`;
