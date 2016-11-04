@@ -1,5 +1,6 @@
 <?php
 $installed=true;
+
 $database_file=dirname(__FILE__)."/application/config/database.php";
 $config_file=dirname(__FILE__)."/application/config/config.php";
 $theme_file=dirname(__FILE__)."/application/config/theme.php";
